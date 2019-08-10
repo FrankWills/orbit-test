@@ -95,6 +95,7 @@ int main( int argc, char* argv[] )
       shipY = vY*speedMod + shipY;
 
       /* wall bounce */
+      /*
       if (shipX < 0 || shipX >= 600){
 	shipX -= 2*vX*speedMod;
 	vX = -vX;
@@ -103,7 +104,8 @@ int main( int argc, char* argv[] )
 	shipY -= 2*vY*speedMod;
 	vY = -vY;
       }
-      
+      */
+
       /* draw the screen */
       SDL_BlitSurface(bg, NULL, screen, NULL);
       
