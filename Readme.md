@@ -9,6 +9,15 @@ This was written with the intent to find out how difficult it would be to write 
 
 Gravity is only applied to the object. The planet is a stationary object.
 
+# Controls
+
+W will increase speed in the direction the object is moving. 
+
+S will decrease speed.
+
+Disabled code exists in the cpp file to include another planet and bounce the object off the sides of the screen.
+Uncomment that code to enable those features.
+
 # Compilation
 
 Use the command
